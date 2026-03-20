@@ -18,7 +18,7 @@ export default {
 
     const incomingUrl = new URL(request.url);
     const path = incomingUrl.pathname.replace(/^\/+/, "");
-    const targetUrl = new URL(`https://tik.porn/${path}${incomingUrl.search}`);
+    const targetUrl = new URL(`https://gaigu8.net/${path}${incomingUrl.search}`);
 
     const headers = new Headers();
     for (const [k, v] of request.headers.entries()) {
